@@ -28,8 +28,12 @@
 - **skill-vetter** — Skill 安全审查插件，每次安装 Skill 前必须审查（位于 workspace/skills/skill-vetter/）
 - **bot-memory-update** — 记忆同步到 GitHub 的 skill（位于 workspace/skills/bot-memory-update/）
 - **Git** — v2.53.0，已安装（2026-03-26）
-- **GitHub CLI (gh)** — v2.88.1，已安装，未认证
-- **GitHub 推送** — token 存储在 git remote URL 中，可直接 push 到 liusenjun/MyClawBot
+- **GitHub CLI (gh)** — v2.88.1，已安装，已认证（GH_TOKEN env var）
+- **GitHub 推送** — 必须由 Louis 明确触发 skill 或授权后操作，不得擅自 push
+
+### OpenClaw 配置记录
+- Discord channel 已加 `"healthMonitor": {"enabled": false}` — 防止 stale-socket 导致 Gateway 崩溃
+- 注意：双 node 进程会冲突，重启前需先杀掉旧进程
 
 ---
 
