@@ -1,62 +1,35 @@
 ---
 name: bot-memory-update
-description: Backup or sync OpenClaw workspace to GitHub for cross-machine continuity. Use when user asks to "backup workspace", "sync workspace to GitHub", "save workspace", "update memory", "sync memory", "push workspace to repo", "备份记忆", "同步记忆到 GitHub", "把工作区存到仓库", "把记忆更新进 GitHub", or similar phrases in any language. Handles updating an existing backup or creating a new backup folder. Requires GitHub CLI (gh) to be installed and authenticated. Reads username dynamically from USER.md for folder naming.
+description: Backup or sync OpenClaw workspace to GitHub for cross-machine continuity. Use when user asks to "backup workspace", "sync workspace to GitHub", "save workspace", "update memory", "sync memory", "push workspace to repo", "备份记忆", "同步记忆到 GitHub", "把工作区存到仓库", "把记忆更新进 GitHub", or similar phrases in any language. Creates a timestamped backup folder inside the existing repo (never replaces repo content). Requires GitHub CLI (gh) to be installed and authenticated. Reads username dynamically from USER.md for folder naming.
 ---
 
 # Bot Memory Update
 
-Sync OpenClaw workspace to a private GitHub repository for cross-machine continuity.
+Sync OpenClaw workspace to a GitHub repository as a timestamped backup folder — like a system image backup. Each backup is a snapshot; no history is ever overwritten.
 
 ## Core Logic
 
 ```
 IF repo does not exist:
     → Create new private repo (one-time)
-    → Ask user to choose: Overwrite vs New folder
+    → Prepare first backup folder
+    → Push as new repo
 
-IF repo exists AND existing folders > 0:
-    → IF user says "keep history" / "new folder" / "don't overwrite":
-        → Create new dated folder
-    → ELSE:
-        → Auto Overwrite (no asking)
-
-IF repo exists AND no existing folders:
-    → Ask user to choose: Overwrite vs New folder
-
-COMMIT:
-    → Push files to GitHub
-    → Share repo URL with user
+IF repo exists:
+    → ALWAYS create a new dated folder (never overwrite existing backups)
+    → Push to GitHub
+    → Report result
 ```
 
-## Decision Flow
+**Key principle: Every backup is a new folder. Old backups are never modified or deleted.**
+
+## Backup Structure
 
 ```
-┌─────────────────────────────────────┐
-│  Check if repo exists on GitHub      │
-└─────────────────┬───────────────────┘
-                  │
-       ┌──────────┴──────────┐
-       ↓                      ↓
-    Repo exists?          Repo not found
-       │                      │
-       ↓                      ↓
-   Check existing        Create repo (one-time)
-   folder count             ↓
-       │                Ask mode
-       ↓                (skip to push)
-   Folders > 0?             ↓
-   │                       Push
- ┌─┴──────────────────────┐  ↓
- ↓                         ↓
-User says           Auto Overwrite
-"keep history"?          (no ask)
- ↓                         ↓
-Create new            Push to GitHub
-folder                    ↓
- ↓                      Share URL ✅
-Push
- ↓
-Share URL ✅
+MyClawBot/
+├── 2026-03-25_Louis_MyClawBot/   ← previous backup (kept intact)
+├── 2026-03-26_Louis_MyClawBot/   ← new backup (added, not replacing)
+└── ...
 ```
 
 ## Files to Backup
@@ -73,110 +46,80 @@ Share URL ✅
 | `HEARTBEAT.md` | Heartbeat tasks |
 | `skills/` | **ALL** skills in this folder |
 
-**Important:** Upload entire `skills/` folder contents, not just specific skills. This ensures any newly installed skills are included in the backup.
+**Important:** Upload entire `skills/` folder contents, not just specific skills.
 
 ## Workflow
 
-### Step 1: Check GitHub CLI Status
+### Step 1: Check gh Authentication
 
 ```bash
 gh auth status
 ```
 
-If not logged in:
-```bash
-gh auth login --hostname github.com --git-protocol https
-```
+If not logged in → use `GH_TOKEN` env var or run `gh auth login`.
 
-### Step 2: Check If Repo Exists
+### Step 2: Get username from USER.md
 
 ```bash
-gh repo list <username> --json name --jq '.[].name'
+# Read username from USER.md dynamically
 ```
 
-If repo **does not exist** → Create it (Step 3)
-If repo **exists** → Check existing folder name (Step 4)
+### Step 3: Prepare Backup Folder Name
 
-### Step 3: Create Repo (One-time Only)
+Format: `YYYY-MM-DD_[Username]_MyClawBot`
+
+Example: `2026-03-26_Louis_MyClawBot`
+
+### Step 4: Clone Existing Repo (preserves all history)
 
 ```bash
-gh repo create <repo-name> --private --description "<description>"
+git clone https://github.com/<username>/<repo-name>.git /tmp/bot-repo
 ```
 
-Example:
-```bash
-gh repo create MyClawBot --private --description "OpenClaw workspace sync"
-```
+**Important:** Always clone first. Never `git init` in a backup folder — that creates a brand new repo and destroys remote history when pushed.
 
-### Step 4: Check Existing Folders & Decide Mode
-
-Check existing folders:
-```bash
-git ls-tree -r HEAD --name-only | grep -E '^[^/]+/$' | head -5
-```
-
-**Decision logic:**
-
-```
-IF existing folders > 0:
-    → IF user says "don't overwrite", "keep history", "new folder":
-        → Create new dated folder (v2, v3...)
-        → Tell user: "Creating new backup, keeping history"
-    → ELSE:
-        → Auto Overwrite (replace oldest folder)
-        → Tell user: "Auto-overwriting to keep repo clean"
-    
-IF no existing folders:
-    → Ask user to choose mode (Overwrite vs New)
-```
-
----
-
-### Step 5: Prepare Backup Folder
-
-**Overwrite mode:**
-```bash
-# Get current folder name, then rename to today's date
-# e.g., "OldFolder" → "2026-03-23_Louis_MyClawBot"
-
-rm -rf /tmp/bot-backup
-mkdir -p /tmp/bot-backup/<NEW_FOLDER_NAME>
-cd /tmp/bot-backup/<NEW_FOLDER_NAME>
-```
-
-**New folder mode (keep history):**
-```bash
-mkdir -p /tmp/bot-backup/<YYYY-MM-DD>_[Username]_MyClawBot
-cd /tmp/bot-backup/<YYYY-MM-DD>_[Username]_MyClawBot
-```
-
-Note: Previous backup is kept intact as a separate folder.
-
-### Step 6: Copy Workspace Files
-
-**CRITICAL: Copy ALL files from workspace root to backup folder:**
-- All .md files (MEMORY.md, USER.md, SOUL.md, AGENTS.md, TOOLS.md, IDENTITY.md, HEARTBEAT.md)
-- The entire memory/ folder (all daily logs)
-- The entire skills/ folder (all installed skills)
-
-### Step 7: Push to GitHub
+### Step 5: Copy Workspace Files into Backup Folder
 
 ```bash
-git init
+# Create dated backup folder inside the cloned repo
+mkdir -p /tmp/bot-repo/<YYYY-MM-DD>_Username_MyClawBot
+
+# Copy all workspace files
+cp MEMORY.md /tmp/bot-repo/<backup-folder>/
+cp USER.md /tmp/bot-repo/<backup-folder>/
+cp SOUL.md /tmp/bot-repo/<backup-folder>/
+cp AGENTS.md /tmp/bot-repo/<backup-folder>/
+cp TOOLS.md /tmp/bot-repo/<backup-folder>/
+cp IDENTITY.md /tmp/bot-repo/<backup-folder>/
+cp HEARTBEAT.md /tmp/bot-repo/<backup-folder>/
+cp -r memory/ /tmp/bot-repo/<backup-folder>/
+cp -r skills/ /tmp/bot-repo/<backup-folder>/
+```
+
+### Step 6: Commit and Push
+
+```bash
+cd /tmp/bot-repo
 git add .
-git commit -m "Workspace backup $(date -u +'%Y-%m-%d')"
-git branch -M main
-git remote add origin https://github.com/<username>/<repo-name>.git
-git push -u origin main --force
+git commit -m "Backup <YYYY-MM-DD>"
+git push
 ```
 
-### Step 8: Share Result
+**No `--force`. No `git init`. Just add → commit → push to the existing repo.**
+
+### Step 7: Cleanup
+
+```bash
+Remove-Item -Recurse -Force /tmp/bot-repo
+```
+
+### Step 8: Report Result
 
 Tell user:
 - ✅ Backup complete
 - 📦 Files backed up: [count]
 - 🔗 Repo URL: [url]
-- 📁 Folder: [folder name]
+- 📁 Backup folder: [folder name]
 
 ---
 
@@ -186,7 +129,7 @@ Format: `YYYY-MM-DD_[Username]_MyClawBot`
 
 Examples:
 - `2026-03-23_Louis_MyClawBot`
-- `2026-03-25_Louis_MyClawBot_v2`
+- `2026-03-26_Louis_MyClawBot`
 
 ---
 
@@ -195,10 +138,19 @@ Examples:
 | Error | Solution |
 |-------|----------|
 | `gh: command not found` | Install GitHub CLI first |
-| `gh auth not logged in` | Run `gh auth login` |
-| Repo not found | Create it with `gh repo create` |
-| Push rejected | Check if repo is empty, use `--force` |
-| Large files | `.gitignore` large media files |
+| `gh auth not logged in` | Use `GH_TOKEN` env var or `gh auth login` |
+| Repo not found | Create it with `gh repo create` first |
+| Clone fails (empty repo) | Create initial backup without clone step |
+| Push conflicts | Pull first (`git pull`), then push |
+
+---
+
+## Common Mistakes to Avoid
+
+1. **Never `git init` in a backup folder** — this creates a new repo and destroys remote history when pushed with `--force`
+2. **Never `git push --force`** — force push overwrites the entire remote repo
+3. **Always clone the existing repo first** — work within the existing repo's git history
+4. **Always create a new folder** — never modify existing backup folders
 
 ---
 
