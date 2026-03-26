@@ -25,8 +25,10 @@
 ## 已安装/配置好的工具
 
 - **SenseVoice** — 阿里 FunAudioLLM 中文语音转文字（本地运行）
-- **skill-vetter** — Skill 安全审查插件，每次安装 Skill 前必须审查
-- **GitHub CLI (gh)** — 已登录 Louis 账号，可直接操作 GitHub
+- **skill-vetter** — Skill 安全审查插件，每次安装 Skill 前必须审查（位于 workspace/skills/skill-vetter/）
+- **bot-memory-update** — 记忆同步到 GitHub 的 skill（位于 workspace/skills/bot-memory-update/）
+- **Git** — v2.53.0，已安装（2026-03-26）
+- **GitHub CLI (gh)** — 待认证，workspace 同步用 git 代替
 
 ---
 
@@ -34,6 +36,7 @@
 
 - 安装任何 Skill 之前，必须先用 skill-vetter 审查
 - 下载大文件时：中断超过1小时或多次失败，切换备选方案并通知用户
+- workspace 完整备份用 bot-memory-update skill，推送到 https://github.com/liusenjun/MyClawBot
 
 ---
 
@@ -53,4 +56,4 @@
 
 ---
 
-_Last updated: 2026-03-26_
+_Last updated: 2026-03-26（下午）_
