@@ -1,0 +1,887 @@
+{
+  "project": "人类刹车计划",
+  "episode": "第一幕「深水埗暗线」",
+  "total_duration": 90,
+  "model": "wan2.2",
+  "resolution": "1280x720",
+  "fps": 24,
+  "character": "robin",
+  "character_tracking": {
+    "robin": {
+      "name": "罗宾",
+      "hair": "银色挑染短发，湿漉漉贴在脸上",
+      "clothing": "黑色皮衣，银色金属扣",
+      "expression": "冷冽警觉，眼神锐利，嘴角偶尔勾起冷冽笑意",
+      "shots": [
+        3,
+        4,
+        6,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "last_frame": "银色短发湿漉漉贴在脸上，黑色皮衣在湿气中泛着微光，骑在摩托车上飞驰"
+    },
+    "肥叔": {
+      "name": "肥叔",
+      "body": "圆润中年男人",
+      "items": "桌上常备冻奶茶和菠萝包",
+      "shots": [
+        6,
+        7,
+        12
+      ],
+      "last_frame": "侧头部中枪，身体前倾倒在桌面"
+    },
+    "领位员": {
+      "name": "Hostess阿姨",
+      "body": "中年女性，穿着整洁制服",
+      "gesture": "手势明亮，笑容真诚",
+      "shots": [
+        2
+      ],
+      "last_frame": "Standing at Teahouse entrance, one hand on door frame, the other beckoning, bright smile in warm amber light"
+    },
+    "陈_Sir": {
+      "name": "陈 Sir",
+      "vehicle": "警车，红蓝警灯",
+      "shots": [
+        18
+      ]
+    }
+  },
+  "scenes": [
+    {
+      "name": "众生相",
+      "time": "00:00-00:20",
+      "location": "深水埗茶餐厅外/内",
+      "lighting": "暖黄tungsten+冷蓝霓虹",
+      "atmosphere": "表面烟火气，暗流涌动"
+    },
+    {
+      "name": "暗流",
+      "time": "00:20-00:45",
+      "location": "茶餐厅内部",
+      "lighting": "暖黄高饱和",
+      "atmosphere": "临界点前的张力"
+    },
+    {
+      "name": "亮相",
+      "time": "00:45-01:05",
+      "location": "茶餐厅内部",
+      "lighting": "暖黄→冷蓝",
+      "atmosphere": "压迫感笼罩"
+    },
+    {
+      "name": "枪响",
+      "time": "01:05-01:15",
+      "location": "茶餐厅内部",
+      "lighting": "冷蓝主调",
+      "atmosphere": "暴力降临，时间停摆"
+    },
+    {
+      "name": "突破",
+      "time": "01:15-01:30",
+      "location": "茶餐厅→街道",
+      "lighting": "冷蓝+暖黄混合",
+      "atmosphere": "爆发，逃亡"
+    },
+    {
+      "name": "转场",
+      "time": "01:30-01:45",
+      "location": "深水埗街道",
+      "lighting": "霓虹红蓝水洼反射",
+      "atmosphere": "追逐高潮"
+    }
+  ],
+  "shots": [
+    {
+      "shot_index": 1,
+      "time": "00:00-00:05",
+      "duration": 5,
+      "scene": "众生相",
+      "shot_type": "establishing",
+      "prompt": "The camera gazes across a wet Sham Shui Po street at deep night — neon signs in crimson and electric blue flicker and bleed into the wet asphalt below, their Chinese characters blurred by moisture. At the corner, a traditional Hong Kong Teahouse glows with warm amber light spilling through its open door, a hand-painted sign reading the shop name in faded gold. Audio: the muffled drone of distant traffic, the sharp hiss of wet on metal awnings, the warm clatter of porcelain and chopsticks from inside, a slow ceiling fan rotating with a barely audible hum. The air smells of soy sauce, jasmine tea, and wet pavement. Camera: static wide establishing shot, 50mm lens, shallow depth of field with the Teahouse in sharp focus and the wet street behind dissolving into soft bokeh.",
+      "camera_move": "固定全景",
+      "camera_detail": {
+        "framing": "wide",
+        "angle": "eye-level",
+        "movement": "static",
+        "focal_length": "50mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "茶餐厅"
+        ],
+        "character_right": [],
+        "props": [
+          "霓虹招牌"
+        ],
+        "foreground": "雾气",
+        "background": "深水埗街道"
+      },
+      "characters": [],
+      "ref_images": [
+        "refs/ambiance.png"
+      ],
+      "ref_images_logic": "氛围参考：深夜街道+茶餐厅暖光的整体感觉，霓虹红蓝与湿滑地面的氛围",
+      "transition_hint": "cut to 侧拍领位员",
+      "emotion_tone": "表面平静，烟火气",
+      "audio_cue": "嘈杂人声、餐具碰撞、吊扇转动、水汽凝结声",
+      "narrative_function": "establishing",
+      "seed": 1234
+    },
+    {
+      "shot_index": 2,
+      "time": "00:05-00:10",
+      "duration": 5,
+      "scene": "众生相",
+      "shot_type": "action",
+      "prompt": "A middle-aged Hong Kong woman in a crisp uniform stands at the Teahouse entrance, greeting passersby with an open palm and a practiced smile — her voice bright and local: '几位呀小姐？搭台可不可以？' Her gestures are large and inviting, one hand beckoning while the other holds the door frame for balance. Behind her, warm yellow light bathes the interior — ceiling fans rotating lazily, customers hunched over bowls of wonton noodles. Camera: medium side-angle shot, slightly low to emphasize her welcoming warmth, 35mm lens, tracking slowly forward as she speaks. Lighting: warm tungsten from inside cuts against the cool blue-tinged darkness outside. Audio: her clear Cantonese voice cutting through the ambient kitchen noise, the rhythmic clatter of service.",
+      "camera_move": "侧拍，中景",
+      "camera_detail": {
+        "framing": "medium",
+        "angle": "slightly low angle",
+        "movement": "slow tracking forward",
+        "focal_length": "35mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "领位员"
+        ],
+        "character_right": [],
+        "props": [],
+        "foreground": "门框",
+        "background": "茶餐厅内部暖光"
+      },
+      "characters": [
+        "领位员"
+      ],
+      "ref_images": [
+        "refs/hostess_three_views.png"
+      ],
+      "ref_images_logic": "Hostess three-view sheet: middle-aged woman in crisp uniform, warm smile, bright welcoming gestures",
+      "transition_hint": "cut to 静态空镜",
+      "emotion_tone": "日常烟火气",
+      "audio_cue": "领位员粤语招呼声、餐具碰撞、吊扇转动",
+      "narrative_function": "establishing",
+      "seed": 1235
+    },
+    {
+      "shot_index": 3,
+      "time": "00:10-00:15",
+      "duration": 5,
+      "scene": "众生相",
+      "shot_type": "cutaway",
+      "prompt": "An old ceiling fan rotates in lazy circles above a crowded Teahouse interior — its blades catching the amber light with each pass. On the wall, an ancient clock's hands crawl toward midnight. Steam rises in delicate wisps from bowls of food on nearby tables, curling and dissipating in the warm air. Camera: static insert shot, framed at 45 degrees to include both the fan and the clock in soft focus, 85mm lens for gentle compression. Lighting: pure warm tungsten, no cool fill, creating a cocoon-like intimacy. Audio: Robin's voice, low, magnetic, and cold — 'I have friends.' The words arrive without warning, flat and declarative, as if reporting weather conditions. The room continues unbothered.",
+      "camera_move": "静态空隙镜头",
+      "camera_detail": {
+        "framing": "medium close-up",
+        "angle": "eye-level",
+        "movement": "static",
+        "focal_length": "85mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "吊扇",
+          "时钟"
+        ],
+        "character_right": [],
+        "props": [
+          "吊扇",
+          "时钟",
+          "蒸汽"
+        ],
+        "foreground": "散景食客",
+        "background": "茶餐厅内部"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [],
+      "ref_images_logic": "无角色参考图需求，空镜使用场景氛围",
+      "transition_hint": "dissolve to 超低角度跟拍",
+      "emotion_tone": "暴风雨前的平静",
+      "audio_cue": "罗宾画外音「我有朋友」低沉磁性，吊扇转动声",
+      "narrative_function": "establishing",
+      "seed": 1236
+    },
+    {
+      "shot_index": 4,
+      "time": "00:15-00:23",
+      "duration": 8,
+      "scene": "暗流",
+      "shot_type": "action",
+      "prompt": "Robin moves through the cramped Teahouse with predatory precision — each footfall deliberate, weight rolling heel-to-toe to silence on the oil-wet floor, her black leather boots catching warm amber lamplight as they navigate past puddles and the shuffling feet of passing servers. Camera: extremely low angle tracking shot from directly behind, lens nearly grazing the wet tiles, 24mm wide angle to exaggerate speed and the proximity of the floor. Lighting: warm amber from overhead Teahouse lamps cuts through cool blue-tinged wet light seeping from the open door, shallow depth of field compressing the crowded background of chattering diners into soft bokeh. Audio: the amplified wet squelch of boots on tile, distant clinking porcelain, muffled Cantonese chatter, her own controlled shallow breathing audible above the ambient noise. Her breathing: measured, deliberate — the rhythm of someone who knows exactly where everyone in the room is without looking. Position: she occupies the wet third of frame, passing a serving cart on her left.",
+      "camera_move": "超低角度、跟拍（从后往前）",
+      "camera_detail": {
+        "framing": "medium",
+        "angle": "extreme low angle",
+        "movement": "tracking forward",
+        "focal_length": "24mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [
+          "来往服务员",
+          "送餐车"
+        ],
+        "character_center": [],
+        "character_right": [
+          "罗宾"
+        ],
+        "props": [
+          "湿滑地面",
+          "水洼"
+        ],
+        "foreground": "模糊餐具散景",
+        "background": "茶餐厅食客"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png"
+      ],
+      "ref_images_logic": "角色三视图：银色挑染短发+黑色皮衣+黑色皮靴，确保外观一致性",
+      "transition_hint": "cut to 遮挡前景（送餐车）",
+      "emotion_tone": "紧张潜行",
+      "audio_cue": "湿滑脚步声放大，控制呼吸声，餐具碰撞",
+      "narrative_function": "tension_build",
+      "seed": 1237
+    },
+    {
+      "shot_index": 5,
+      "time": "00:23-00:31",
+      "duration": 8,
+      "scene": "暗流",
+      "shot_type": "action",
+      "prompt": "Foreground elements — a plate of dry-fried beef Hor Fun sending up a thin curl of steam, a glass of silky milk tea condensation-beaded and gleaming — blur into dreamy bokeh as the camera glides horizontally at table-top height, never rising above it, never revealing the head of the figure in focus at mid-distance. Camera: horizontal tracking shot at table height, 50mm lens, shallow depth of field with foreground props aggressively blurred. The background reveals the mundane theater of Teahouse life — diners hunched over bowls, the clatter and conversation continuing in warm amber light. Lighting: warm yellow with high saturation, the food catching key light from above. Audio: the ambient noise of a dozen overlapping conversations, the clink of ice against glass, a production of normalcy maintained. The mystery figure is felt but never fully seen — only a black leather sleeve entering frame wet, moving with purpose.",
+      "camera_move": "遮挡前景、水平平移，镜头高度略高于桌面",
+      "camera_detail": {
+        "framing": "medium",
+        "angle": "eye-level (table height)",
+        "movement": "horizontal tracking",
+        "focal_length": "50mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "模糊食客"
+        ],
+        "character_right": [
+          "罗宾（仅皮衣袖口可见）"
+        ],
+        "props": [
+          "干炒牛河",
+          "丝袜奶茶"
+        ],
+        "foreground": "蒸汽散景",
+        "background": "茶餐厅食客日常"
+      },
+      "characters": [],
+      "ref_images": [],
+      "ref_images_logic": "无角色清晰入镜需求，使用氛围图参考",
+      "transition_hint": "cut to 越肩",
+      "emotion_tone": "神秘",
+      "audio_cue": "嘈杂人声、餐具碰撞",
+      "narrative_function": "tension_build",
+      "seed": 1238
+    },
+    {
+      "shot_index": 6,
+      "time": "00:31-00:38",
+      "duration": 7,
+      "scene": "暗流",
+      "shot_type": "reaction",
+      "prompt": "Over-the-shoulder from directly behind Robin's right shoulder as she settles into a seat across from a round middle-aged man — Uncle Fat, his face slack and easy, one hand wrapped loosely around a cold milk tea, the other resting beside a pineapple bun with a thick slice of butter. He looks exactly like someone's retired uncle, harmless and unimpressed. Camera: over-the-shoulder medium shot, 50mm lens, slight telephoto compression to bring both faces into intimate proximity. The table between them holds the milk tea, the bun, and the heavy silence of something unsaid. Lighting: warm amber key light from above, soft and forgiving. Uncle Fat speaks in Mandarin, his voice easy and relaxed: 'Everything is in here. Once this brake is pulled, the whole of Hong Kong is going to put on quite a show.' His tone is casual, almost wistful. Robin's eyes track the U-shaped flash drive he slides across the table surface. Audio: the distant hum of the Teahouse, the soft slide of the USB on the table, Uncle Fat's Mandarin voice cutting through. Position: Robin occupies left third, Uncle Fat occupies right third, the U-drive in dead center.",
+      "camera_move": "越肩（从主角身后）",
+      "camera_detail": {
+        "framing": "medium",
+        "angle": "over-the-shoulder",
+        "movement": "static",
+        "focal_length": "50mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [
+          "罗宾"
+        ],
+        "character_center": [
+          "U盘"
+        ],
+        "character_right": [
+          "肥叔"
+        ],
+        "props": [
+          "冻奶茶",
+          "菠萝包"
+        ],
+        "foreground": "",
+        "background": "茶餐厅内部"
+      },
+      "characters": [
+        "罗宾",
+        "肥叔"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png"
+      ],
+      "ref_images_logic": "角色三视图，确保 Robin 外观一致性",
+      "transition_hint": "cut to 俯拍特写",
+      "emotion_tone": "日常感，暗流涌动",
+      "audio_cue": "肥叔普通话：东西全部都在这里面了。这个刹车要是踩下去，整个香港会有场好戏。+ 瓷器轻碰声",
+      "narrative_function": "climax_build",
+      "seed": 1239
+    },
+    {
+      "shot_index": 7,
+      "time": "00:38-00:44",
+      "duration": 6,
+      "scene": "暗流",
+      "shot_type": "insert",
+      "prompt": "A top-down extreme close-up: Uncle Fat's weathered hand — thick fingers, a chunky silver ring on the pinky, the skin mapped with age spots — slides an old USB drive across the laminate table surface. The drive is battered, its plastic casing scratched to white at the edges, a piece of clear tape wrapped around it holding the USB connector cap in place. Camera: static top-down extreme close-up, 135mm telephoto to compress depth and isolate the hand and drive in a shallow pool of amber light. Movement: the hand pauses after the push, fingers relaxing open in a gesture of finality — the ritual of transfer complete. Lighting: single warm amber overhead, the rest of the frame falling into shadow. Audio: the faint plastic-to-laminate contact sound as the drive arrives at the far side of the frame, followed by Uncle Fat's casual voice: 'Everything's in here. Once you brake, the whole of Hong Kong's gonna have one hell of a show.' His tone is relaxed, almost wistful. Position: drive occupies dead center, Uncle Fat's open palm in frame left.",
+      "camera_move": "俯拍特写",
+      "camera_detail": {
+        "framing": "extreme close-up",
+        "angle": "overhead (top-down)",
+        "movement": "static",
+        "focal_length": "135mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [
+          "肥叔（手）"
+        ],
+        "character_center": [
+          "U盘"
+        ],
+        "character_right": [],
+        "props": [
+          "U盘",
+          "桌面"
+        ],
+        "foreground": "",
+        "background": "阴影"
+      },
+      "characters": [
+        "肥叔"
+      ],
+      "ref_images": [],
+      "ref_images_logic": "物件特写，无角色参考图需求",
+      "transition_hint": "cut to 反打上摇至 Robin 脸部",
+      "emotion_tone": "仪式感",
+      "audio_cue": "U盘滑过桌面声、肥叔粤语",
+      "narrative_function": "climax_build",
+      "seed": 1240
+    },
+    {
+      "shot_index": 8,
+      "time": "00:44-00:49",
+      "duration": 5,
+      "scene": "亮相",
+      "shot_type": "reaction",
+      "prompt": "A reverse-angle bottom-up reveal: Robin's hand descends into frame and presses flat over the USB drive — her knuckles sharp, the silver ring on her index finger catching the amber light. Then the camera pushes in and rises along the line of her forearm, past the silver metal clasps of her leather jacket cuff, up the lean muscle of her forearm, to the cold hard eyes that have been waiting. Camera: bottom-up tilt-up shot, 50mm lens, starting at extreme close-up of hand-on-drive and climbing to a close-up of her face at frame end. Her lips curl into a cold, precise smile — not warm, not inviting, simply the acknowledgment of a line crossed. Lighting: warm amber on her face, but the overall tone beginning to shift cooler as the frame rises. Audio: all ambient noise compresses and filters — the Teahouse sounds become muffled, distant, underwater. The room falls into a profound, unnatural silence. Robin speaks, her Cantonese flat and cold: 'Then let's give them a show.' Position: her face fills the wet two-thirds of frame at shot end, the U-drive hidden beneath her palm.",
+      "camera_move": "反打上摇至脸部",
+      "camera_detail": {
+        "framing": "extreme close-up to close-up (progressive push)",
+        "angle": "bottom-up tilt",
+        "movement": "push-in + tilt-up",
+        "focal_length": "50mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "罗宾（脸部）"
+        ],
+        "character_right": [],
+        "props": [
+          "U盘（手按下）"
+        ],
+        "foreground": "",
+        "background": "茶餐厅虚化"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png"
+      ],
+      "ref_images_logic": "角色三视图：银色挑染短发+黑色皮衣+银环+冷冽表情，确保外观一致性",
+      "transition_hint": "cut to 静态远景",
+      "emotion_tone": "冷冽压迫",
+      "audio_cue": "环境音突然压低变模糊，罗宾粤语「那就陪他们玩玩」",
+      "narrative_function": "climax",
+      "seed": 1241
+    },
+    {
+      "shot_index": 9,
+      "time": "00:49-00:54",
+      "duration": 5,
+      "scene": "亮相",
+      "shot_type": "cutaway",
+      "prompt": "A wide static shot from inside the Teahouse — customers continue to eat their noodles, drink their tea, speak in low murmurs. Nothing has changed on the surface. The ceiling fans rotate. The clocks advance. A waiter passes with a tray of dishes. But the lighting has shifted: where warm amber dominated moments ago, a cold blue tinge now bleeds in from the edges of frame, from the wet windows, from the street outside. Camera: static wide shot, 35mm lens, deep focus to hold everything in sharp relief — the normalcy of the foreground against the cold infiltration from the margins. Lighting: dual-tone — warm amber inside the frame core, cold blue creeping in from the frame edges and windows. Audio: all ambient sound has been processed with a low-pass filter, making it feel muffled, distant, as if heard through glass or underwater. The contrast between the visual normalcy and the audio compression creates a subliminal wrongness. Position: full restaurant interior visible, no single character dominates.",
+      "camera_move": "静态远景",
+      "camera_detail": {
+        "framing": "wide",
+        "angle": "eye-level",
+        "movement": "static",
+        "focal_length": "35mm",
+        "depth_of_field": "deep"
+      },
+      "position": {
+        "character_left": [
+          "食客"
+        ],
+        "character_center": [
+          "食客"
+        ],
+        "character_right": [
+          "食客"
+        ],
+        "props": [],
+        "foreground": "",
+        "background": "冷蓝窗光渗入"
+      },
+      "characters": [],
+      "ref_images": [
+        "refs/ambiance.png"
+      ],
+      "ref_images_logic": "场景氛围参考图：暖黄+冷蓝双色感，烟火气表面下的压迫感",
+      "transition_hint": "cut to 聚焦特写",
+      "emotion_tone": "压迫笼罩",
+      "audio_cue": "环境音低通滤波，遥远沉闷",
+      "narrative_function": "tension_build",
+      "seed": 1242
+    },
+    {
+      "shot_index": 10,
+      "time": "00:54-00:58",
+      "duration": 4,
+      "scene": "枪响",
+      "shot_type": "insert",
+      "prompt": "An extreme close-up of the wet plate glass window. Outside: the blue-black of a Sham Shui Po wet night street, a sodium vapor lamp casting orange pools on the wet asphalt. Inside: nothing visible, only the glass and its surface. Camera: static extreme close-up, 135mm telephoto, framing the window so the glass fills the entire frame — no context, no orientation, only surface. Water traces diagonal lines down the glass, each droplet catching a different color: the orange of the street lamp, the blue of the distant siren, the cold white of the overhead interior light. Lighting: cold blue-black dominates, with the orange sodium glow fracturing through the water streaks. Audio: the room has gone completely silent — no dialogue, no fans, no chopsticks. Only the faint hiss of condensation on glass and, from somewhere distant, the rising wail of a police siren. Position: window dominates entire frame.",
+      "camera_move": "聚焦特写",
+      "camera_detail": {
+        "framing": "extreme close-up",
+        "angle": "eye-level",
+        "movement": "static",
+        "focal_length": "135mm",
+        "depth_of_field": "deep"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "玻璃窗"
+        ],
+        "character_right": [],
+        "props": [
+          "玻璃窗",
+          "湿气"
+        ],
+        "foreground": "湿气痕迹",
+        "background": "冷蓝街道"
+      },
+      "characters": [],
+      "ref_images": [],
+      "ref_images_logic": "无角色参考图需求",
+      "transition_hint": "cut to 超慢动作子弹轨迹",
+      "emotion_tone": "时间停摆",
+      "audio_cue": "寂静+远处警笛渐近",
+      "narrative_function": "climax_build",
+      "seed": 1243
+    },
+    {
+      "shot_index": 11,
+      "time": "00:58-01:01",
+      "duration": 3,
+      "scene": "枪响",
+      "shot_type": "insert",
+      "prompt": "Ultra slow-motion: a bullet traces a path through the air inside the Teahouse toward Uncle Fat's wet temple. The round is impossibly detailed in the warm interior light — brass cartridge base, copper-colored jacket, the slight perturbation of air around its tip visible like a heat shimmer. Camera: side profile static shot, 24mm wide angle to capture the full bullet trajectory across frame, ultra slow-motion effect. Glass cracks radiate outward from the wall behind Uncle Fat's head in a perfect spider-web pattern, each crack catching the light differently as it spreads. Lighting: warm amber interior lights the bullet and the interior, making the cold violence of the round feel even more alien against the domestic setting. Audio: the sound of the bullet cutting air — a high, clean, almost musical whistle, followed by the crack of the glass webbing beginning to propagate. Position: bullet enters left side of frame, Uncle Fat's temple at wet.",
+      "camera_move": "超慢动作子弹视角",
+      "camera_detail": {
+        "framing": "medium",
+        "angle": "side profile",
+        "movement": "static (slow-motion effect)",
+        "focal_length": "24mm",
+        "depth_of_field": "deep"
+      },
+      "position": {
+        "character_left": [
+          "子弹轨迹"
+        ],
+        "character_center": [],
+        "character_right": [
+          "肥叔（侧头）"
+        ],
+        "props": [
+          "子弹",
+          "玻璃裂纹"
+        ],
+        "foreground": "",
+        "background": "茶餐厅内部"
+      },
+      "characters": [],
+      "ref_images": [],
+      "ref_images_logic": "无角色参考图需求",
+      "transition_hint": "cut to 侧拍中景",
+      "emotion_tone": "暴力瞬间",
+      "audio_cue": "子弹破空呼啸声 + 玻璃裂纹扩散声",
+      "narrative_function": "climax",
+      "seed": 1244
+    },
+    {
+      "shot_index": 12,
+      "time": "01:01-01:04",
+      "duration": 3,
+      "scene": "枪响",
+      "shot_type": "action",
+      "prompt": "Side medium shot: Uncle Fat's head snaps to the wet from the impact — not a dramatic fall, but a simple redirection, the body following half a beat later as the physics of the hit propagate. Blood and tissue spray in an arc across the white tile wall behind him, spattering the cold milk tea and half-eaten pineapple bun. The force of the impact drives his upper body forward onto the table — dishes tilting, porcelain shattering on the floor in a cascade of sound. Camera: side medium shot, 50mm lens, static — no dramatic push-in, the horror delivered by the clinical steadiness of the frame and the completeness of what it records. The frame holds on the aftermath — Uncle Fat slumped forward, the blood spatter on white tile glistening under the warm light. Lighting: warm amber from above, unchanged — the same warm light that lit his casual conversation now illuminating the aftermath of his death. Audio: the crack of the impact, the cascading crash of dishes and porcelain breaking on the floor, then — after a single held beat — the first scream from somewhere in the restaurant. Position: Uncle Fat occupies center-wet of frame, blood spatter fills left side of frame.",
+      "camera_move": "侧拍中景",
+      "camera_detail": {
+        "framing": "medium",
+        "angle": "side profile",
+        "movement": "static",
+        "focal_length": "50mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [
+          "血溅（白墙）"
+        ],
+        "character_center": [
+          "肥叔（倒地）"
+        ],
+        "character_right": [
+          "桌面（奶茶、菠萝包）"
+        ],
+        "props": [
+          "血溅",
+          "瓷砖墙",
+          "冻奶茶",
+          "菠萝包"
+        ],
+        "foreground": "",
+        "background": "茶餐厅内部"
+      },
+      "characters": [
+        "肥叔"
+      ],
+      "ref_images": [],
+      "ref_images_logic": "无角色参考图需求（角色已死亡）",
+      "transition_hint": "cut to 快速推近",
+      "emotion_tone": "残酷震撼",
+      "audio_cue": "枪响 + 瓷器碎裂 + 尖叫声爆发",
+      "narrative_function": "climax",
+      "seed": 1245
+    },
+    {
+      "shot_index": 13,
+      "time": "01:04-01:09",
+      "duration": 5,
+      "scene": "突破",
+      "shot_type": "reaction",
+      "prompt": "Extreme close-up of Robin's eyes: pupils dilating, the whites of her eyes catching the warm light, a micro-expression of shock passing across her face in a fraction of a second before discipline reasserts itself. Her hand CLOSES over the USB drive on the table — fingers wrapping it fully, knuckles whitening with the grip. Camera: extreme close-up push-in, 135mm telephoto, holding on her eyes for three full seconds before cutting to a CU of her white-knuckled grip on the drive. The background is a blur of panicked diners rushing past, their forms unidentifiable. Lighting: warm amber with slight cooler bleed from the window side. Audio: a rush of adrenaline audible in her breathing — sharp inhales, the sound of her pulse in her ears. The chaos of the restaurant is felt but not heard, compressed into a muffled roar behind her private moment. Position: eyes/drive occupy center frame, chaos in background.",
+      "camera_move": "快速推近近景",
+      "camera_detail": {
+        "framing": "extreme close-up to close-up",
+        "angle": "eye-level",
+        "movement": "rapid push-in",
+        "focal_length": "135mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "罗宾（眼部特写 → 手握U盘）"
+        ],
+        "character_right": [],
+        "props": [
+          "U盘"
+        ],
+        "foreground": "模糊人影（逃窜食客）",
+        "background": "混乱茶餐厅"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png"
+      ],
+      "ref_images_logic": "角色三视图，确保 Robin 外观一致性（银色挑染短发+黑色皮衣）",
+      "transition_hint": "cut to 动态追踪全景",
+      "emotion_tone": "肾上腺素飙升",
+      "audio_cue": "急促呼吸、心跳声、混乱尖叫被压低",
+      "narrative_function": "tension_release",
+      "seed": 1246
+    },
+    {
+      "shot_index": 14,
+      "time": "01:09-01:12",
+      "duration": 3,
+      "scene": "突破",
+      "shot_type": "insert",
+      "prompt": "Extreme close-up: Robin's hand darts forward and snatches the USB drive from the table with surgical speed — fingers closing around it, palm trapping it flat, a micro-motion taking less than a second. Her wrist snaps back, the drive now deep inside her fist. Camera: extreme close-up static shot, 135mm telephoto, framed tight on the hand and the U-drive throughout — the blur of her sleeve the only contextual information. The background remains a warm-amber wash of the Teahouse interior. Lighting: warm amber overhead, the drive catching a glint of metal light as it disappears into her grip. Audio: the sharp plastic click of fingers closing over the drive — a sound like a small lock clicking shut — followed by the immediate muffled roar of the panicked Teahouse behind her. Position: hand and U-drive occupy dead center of frame throughout.",
+      "camera_move": "特写锁定（手持U盘拿走）",
+      "camera_detail": {
+        "framing": "extreme close-up",
+        "angle": "eye-level",
+        "movement": "static",
+        "focal_length": "135mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "罗宾（手）",
+          "U盘"
+        ],
+        "character_right": [],
+        "props": [
+          "U盘"
+        ],
+        "foreground": "",
+        "background": "茶餐厅内部虚化"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png"
+      ],
+      "ref_images_logic": "角色三视图，确保 Robin 手部外观一致性（黑色皮衣袖口+银环）",
+      "transition_hint": "cut to 动态追踪（撞玻璃）",
+      "emotion_tone": "精准、冷静",
+      "audio_cue": "手指合拢扣住U盘的清脆塑料声，背景混乱尖叫被压低",
+      "narrative_function": "tension_release",
+      "seed": 1246
+    },
+    {
+      "shot_index": 15,
+      "time": "01:09-01:14",
+      "duration": 5,
+      "scene": "突破",
+      "shot_type": "action",
+      "prompt": "Robin surges up from her seat — the movement explosive but controlled, her body coiling and releasing in a single sharp motion toward the already cracked but not-yet-shattered glass panel beside their table. Camera: dynamic tracking shot from a fixed position slightly behind and to the left, 35mm lens, following her body as it connects with the glass. The panel doesn't explode outward — it disintegrates in a radial pattern from the point of impact, cracks racing to the frame edges before individual shards begin to detach and fall. Her silhouette is momentarily frozen against the fractured glass — a dark shape against the warm interior light and cold exterior blue — before the cascade begins. Camera movement: tracking with the impact, matching her velocity. Lighting: dual — warm amber inside, cold blue outside, the glass catching both. Audio: the deep thud of body against glass, then the crystalline cascade of the shatter — individual pieces hitting the floor in a rolling cascade of sound. Position: Robin impacts center frame, her form frozen in the moment of collision.",
+      "camera_move": "动态追踪全景",
+      "camera_detail": {
+        "framing": "medium wide",
+        "angle": "eye-level (behind-left)",
+        "movement": "tracking with impact",
+        "focal_length": "35mm",
+        "depth_of_field": "deep"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "罗宾（撞玻璃瞬间）"
+        ],
+        "character_right": [],
+        "props": [
+          "碎玻璃"
+        ],
+        "foreground": "",
+        "background": "茶餐厅内部/外部交界"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png"
+      ],
+      "ref_images_logic": "角色三视图，确保 Robin 外观一致性（黑色皮衣+银发）",
+      "transition_hint": "cut to 仰视中景爆发",
+      "emotion_tone": "爆发",
+      "audio_cue": "撞击闷响 + 玻璃崩裂巨响",
+      "narrative_function": "tension_release",
+      "seed": 1247
+    },
+    {
+      "shot_index": 16,
+      "time": "01:14-01:18",
+      "duration": 4,
+      "scene": "突破",
+      "shot_type": "action",
+      "prompt": "Exterior low angle: Robin tumbles through the shattered window frame onto the wet street outside, glass fragments catching the dual-color light — warm amber from the Teahouse behind her, cold blue from the street lamps ahead — as they fall around her like frozen wet. Camera: low angle wide shot from just outside the window, 24mm wide angle to include both the interior light spilling through the broken frame and the exterior street context. She rolls on impact, comes up in a crouch, the silver-dyed short hair plastered to her forehead with wet and sweat, her black leather jacket dark with moisture. Civilians on the street scream and scatter. Camera: holds the low angle, 50mm, watching her rise. Lighting: dual — interior warm amber from the broken window behind, exterior cold blue-white from street lamps ahead. Audio: the crash of the window breaking outward, the splash of her landing on wet pavement, the panicked screams of pedestrians, wet hissing on metal and stone. Position: Robin center frame in crouch, broken window above and behind, scattering civilians around the edges.",
+      "camera_move": "仰视中景爆发",
+      "camera_detail": {
+        "framing": "medium wide",
+        "angle": "low angle (exterior)",
+        "movement": "static",
+        "focal_length": "24mm",
+        "depth_of_field": "deep"
+      },
+      "position": {
+        "character_left": [
+          "路人四散"
+        ],
+        "character_center": [
+          "罗宾（起立）"
+        ],
+        "character_right": [
+          "茶餐厅（破窗）"
+        ],
+        "props": [
+          "碎玻璃",
+          "水洼"
+        ],
+        "foreground": "",
+        "background": "深水埗街道"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png"
+      ],
+      "ref_images_logic": "角色三视图，确保 Robin 外观一致性（银发湿漉漉贴在脸上+黑色皮衣）",
+      "transition_hint": "cut to 侧拍近景（跨上摩托）",
+      "emotion_tone": "逃亡",
+      "audio_cue": "玻璃崩裂 + 落地溅水 + 尖叫",
+      "narrative_function": "tension_release",
+      "seed": 1248
+    },
+    {
+      "shot_index": 17,
+      "time": "01:18-01:23",
+      "duration": 5,
+      "scene": "转场",
+      "shot_type": "action",
+      "prompt": "Side close-up: Robin swings onto a modified motorcycle — the kind favored by Hong Kong street riders, low handlebars, loud exhaust, a machine built for speed and noise, not comfort. The motion is economical, practiced, a single fluid arc from standing to seated to ready. Camera: side close-up, 85mm lens, compressing the motorcycle and rider into a tight frame, shallow depth of field blurring the chaotic street behind. wet beads on the motorcycle's chrome — mirrors, handlebar grips, the headlight housing — and on her leather jacket, making everything look slick and metallic. The key turned, the engine coughs once, then ROARS to life. Camera: holds the side angle, slight slow-motion on the engine roar moment. Lighting: cold blue-white street lamp, orange reflections in the wet puddles. Audio: the bass rumble of the engine starting, the snap of the exhaust, her gloved hands on the controls. Position: motorcycle and Robin dominate wet two-thirds of frame.",
+      "camera_move": "侧拍近景",
+      "camera_detail": {
+        "framing": "close-up",
+        "angle": "side profile",
+        "movement": "static",
+        "focal_length": "85mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [],
+        "character_right": [
+          "罗宾",
+          "摩托车"
+        ],
+        "props": [
+          "摩托车",
+          "水珠"
+        ],
+        "foreground": "",
+        "background": "深水埗街道（虚化）"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png",
+        "refs/motorcycle.png"
+      ],
+      "ref_images_logic": "角色三视图+摩托车参考，确保 Robin 外观和摩托车细节一致性",
+      "transition_hint": "cut to 锁定特写（油门）",
+      "emotion_tone": "蓄势",
+      "audio_cue": "引擎轰鸣如闷雷",
+      "narrative_function": "transition",
+      "seed": 1249
+    },
+    {
+      "shot_index": 18,
+      "time": "01:23-01:27",
+      "duration": 4,
+      "scene": "转场",
+      "shot_type": "insert",
+      "prompt": "Extreme close-up of Robin's wet hand twisting the motorcycle throttle grip — knuckles white with maximum grip, the leather of her gloves creaking under the tension. The tachometer needle climbs: 2,000 RPM, 4,000, 6,000, redline. Camera: extreme close-up static shot, 135mm telephoto, framed on the hand-grip-tachometer trio, with wet droplets on the lens adding halation to the instrument's glow. The exhausts at the far side of the frame spit orange sparks into the wet night, each spark leaving a brief trail before dying. Camera: static hold on the hand, letting the audio and the climbing tachometer build the tension. Lighting: cold blue ambient, with the orange exhaust sparks and the tacho's green glow providing color contrast. Audio: the engine's pitch rising with the RPM — a screaming mechanical crescendo — and the hiss of wet hitting hot exhaust parts. Position: hand occupies center frame, exhaust sparks in far background.",
+      "camera_move": "锁定特写",
+      "camera_detail": {
+        "framing": "extreme close-up",
+        "angle": "eye-level",
+        "movement": "static",
+        "focal_length": "135mm",
+        "depth_of_field": "shallow"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "罗宾（手握油门）"
+        ],
+        "character_right": [
+          "摩托车（排气管）"
+        ],
+        "props": [
+          "油门把手",
+          "仪表盘"
+        ],
+        "foreground": "水滴（镜头水珠）",
+        "background": "虚化街道"
+      },
+      "characters": [
+        "罗宾"
+      ],
+      "ref_images": [
+        "refs/motorcycle.png"
+      ],
+      "ref_images_logic": "摩托车参考图，确保摩托车细节一致性",
+      "transition_hint": "cut to 追随运镜",
+      "emotion_tone": "蓄势待发",
+      "audio_cue": "引擎转速飙升，排气管迸出火星",
+      "narrative_function": "transition",
+      "seed": 1250
+    },
+    {
+      "shot_index": 19,
+      "time": "01:27-01:37",
+      "duration": 10,
+      "scene": "转场",
+      "shot_type": "action",
+      "prompt": "Tracking shot: Robin's motorcycle tears through the wet Sham Shui Po night, a black bolt of motion against the neon-stained wet pavement. The camera tracks from behind and slightly above, matching her speed, the 24mm wide angle exaggerating the sense of forward momentum and the wet being thrown up from the tires. Her silver-dyed hair whips in the wind, soaking wet and plastered to the sides of her face. Her body leans low over the tank, black leather jacket spread behind her like wings. Camera: tracking shot from a pursuing vehicle or Steadicam on foot, 24mm lens, matching pace with the motorcycle. The neon signs of Sham Shui Po — a mix of Vietnamese, Mandarin, and Cantonese text in red, blue, and pink — reflect in the puddles below, creating long streaks of color that the motorcycle passes through and disrupts. Behind her: the red and blue flash of Sir Chan's police car lights, the screaming siren closing the gap. Camera: holds the tracking angle, letting the pursuit unfold in frame. Lighting: cold blue-white street lamps, orange sodium reflections in puddles, neon pinks and reds from shop signs, the police lights adding red-blue pulse to everything. Audio: the roar of the motorcycle engine sustained at high RPM, the police siren behind getting louder, the hiss of wet on metal, the Doppler shift of the siren as it approaches. Position: motorcycle center frame, police car visible in far background.",
+      "camera_move": "追随运镜",
+      "camera_detail": {
+        "framing": "medium wide",
+        "angle": "behind and slightly above",
+        "movement": "tracking (matching speed)",
+        "focal_length": "24mm",
+        "depth_of_field": "deep"
+      },
+      "position": {
+        "character_left": [],
+        "character_center": [
+          "罗宾（摩托车）"
+        ],
+        "character_right": [],
+        "props": [
+          "摩托车",
+          "水洼"
+        ],
+        "foreground": "湿气幕+速度线",
+        "background": "霓虹街道（深水埗）"
+      },
+      "characters": [
+        "罗宾",
+        "陈 Sir"
+      ],
+      "ref_images": [
+        "refs/robin_three_views.png",
+        "refs/motorcycle.png",
+        "refs/ambiance.png"
+      ],
+      "ref_images_logic": "角色三视图+摩托车+氛围图，确保所有元素一致性",
+      "transition_hint": "fade to black, end of Act One",
+      "emotion_tone": "追逐高潮",
+      "audio_cue": "引擎轰鸣 + 警笛逼近 + 湿气呼啸",
+      "narrative_function": "climax",
+      "seed": 1251
+    }
+  ]
+}
