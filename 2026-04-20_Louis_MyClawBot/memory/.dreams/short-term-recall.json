@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-19T03:48:29.787Z",
+  "entries": {
+    "memory:memory/2026-04-13.md:104:115": {
+      "key": "memory:memory/2026-04-13.md:104:115",
+      "path": "memory/2026-04-13.md",
+      "startLine": 104,
+      "endLine": 115,
+      "source": "memory",
+      "snippet": "- 或者 Louis 直接在 ComfyUI UI 里加载 blueprint 手动测试 ### Louis 的决定 - Louis 想了解给 Wan 2.2 参考图的 4 种方式：首帧 i2v、IP-Adapter、Reference LoRA、混合方式 - Louis 倾向先跑一个 shot 看效果再批量渲染 ### 下次继续 - [ ] 解决 ComfyUI API 400 问题（用 WorkflowGraph 或 UI 操作） - [ ] 测试 shot 1（全景街景，纯文字） - [ ] 根据效果决定是否用首帧 vs IP-Adapter 方式 - [ ] MiniMax 图像理解问题仍未解决（api.minimaxi.com/anthropic 不支持 image）",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7970851398945361,
+      "maxScore": 0.7970851398945361,
+      "firstRecalledAt": "2026-04-17T07:32:19.100Z",
+      "lastRecalledAt": "2026-04-17T07:32:19.100Z",
+      "queryHashes": [
+        "9f4d31d16188"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "2.2",
+        "ip-adapter",
+        "api.minimaxi.com/anthropic",
+        "或者",
+        "louis",
+        "直接",
+        "comfyui",
+        "里加"
+      ]
+    },
+    "memory:memory/2026-04-13.md:32:68": {
+      "key": "memory:memory/2026-04-13.md:32:68",
+      "path": "memory/2026-04-13.md",
+      "startLine": 32,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "### 下次继续 - [ ] 可用 Flux2 t2i 立即生成图片 - [ ] Wan 2.2 模型需要下载才能跑视频 workflow - [ ] 45个缺失 skills 主要是 macOS 专属，不影响核心功能 # 2026-04-13 Daily Log ## Session (15:28 - 16:01 GMT+8) ### 检查 ComfyUI repo 和模型状态 - Louis 让我检查之前下载的 ComfyUI GitHub repo - Repo 路径：`C:\\Users\\user.V915-31\\Documents\\comfyui-git\\` - 模型路径：`C:\\Users\\user.V915-31\\Documents\\ComfyUI\\models\\` - ComfyUI 已启动在 localhost:8188 ### 可用模型（已下载） - **Flux2 图片**：flux-2-klein-4b-fp8.safetensors (3.8GB)、flux2-vae.safetensors、qwen_3_4b.safetensors - **LTX-Video**：ltx-2-19b-distilled_Q4_K_M.gguf (12GB)、9个 ltx-2-19b-lora-camera-control-*.safetensors ### 缺少的模型（Wan 2.2 T2V workflow 需要的） - wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors - wan2.2_t2v_low_noi",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.634469966522858,
+      "maxScore": 0.634469966522858,
+      "firstRecalledAt": "2026-04-17T07:32:19.100Z",
+      "lastRecalledAt": "2026-04-17T07:32:19.100Z",
+      "queryHashes": [
+        "9f4d31d16188"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "2.2",
+        "user.v915-31",
+        "comfyui-git",
+        "flux-2-klein-4b-fp8.safetensors",
+        "3.8gb",
+        "flux2-vae.safetensors",
+        "qwen-3-4b.safetensors",
+        "ltx-video"
+      ]
+    },
+    "memory:memory/2026-04-13.md:1:40": {
+      "key": "memory:memory/2026-04-13.md:1:40",
+      "path": "memory/2026-04-13.md",
+      "startLine": 1,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "# 2026-04-13 Daily Log ## Session (15:28 - 16:01 GMT+8) ### 检查 ComfyUI repo 和模型状态 - Louis 让我检查之前下载的 ComfyUI GitHub repo - Repo 路径：`C:\\Users\\user.V915-31\\Documents\\comfyui-git\\` - 模型路径：`C:\\Users\\user.V915-31\\Documents\\ComfyUI\\models\\` - ComfyUI 已启动在 localhost:8188 ### 可用模型（已下载） - **Flux2 图片**：flux-2-klein-4b-fp8.safetensors (3.8GB)、flux2-vae.safetensors、qwen_3_4b.safetensors - **LTX-Video**：ltx-2-19b-distilled_Q4_K_M.gguf (12GB)、9个 ltx-2-19b-lora-camera-control-*.safetensors ### 缺少的模型（Wan 2.2 T2V workflow 需要的） - wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors - wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors - wan_2.1_vae.safetensors - umt5_xxl_fp8_e4m3fn_scaled.safetensors - 2个 wan2.2_t",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6307103250655403,
+      "maxScore": 0.6307103250655403,
+      "firstRecalledAt": "2026-04-17T07:32:19.100Z",
+      "lastRecalledAt": "2026-04-17T07:32:19.100Z",
+      "queryHashes": [
+        "9f4d31d16188"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "user.v915-31",
+        "comfyui-git",
+        "flux-2-klein-4b-fp8.safetensors",
+        "3.8gb",
+        "flux2-vae.safetensors",
+        "qwen-3-4b.safetensors",
+        "ltx-video",
+        "ltx-2-19b-distilled-q4-k-m.gguf"
+      ]
+    },
+    "memory:memory/2026-04-15.md:59:91": {
+      "key": "memory:memory/2026-04-15.md:59:91",
+      "path": "memory/2026-04-15.md",
+      "startLine": 59,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "- torrent 无 peers ### 后续计划 1. 继续调试 HunyuanVideo 或切换其他方案 2. 等 qBittorrent torrent 有 peers 后测试 LTX 2.3 3. 三模型 shot 4 对比（目前只有 Wan 2.2 + HunyuanVideo，缺 LTX） --- ## 晚间补充（16:00-18:13） ### LTX 2.3 I2V Workflow 分析 - Louis 想用 `LTX-2.3_T2V_I2V_Single_Stage_Distilled_Full.json` workflow（位于 `ComfyUI-LTXVideo\\example_workflows\\2.3\\`） - 该 workflow 需要 22b 模型版本，和你已有的 19b 不兼容 - **需要的模型（来自 ltx23.torrent）：** - `checkpoints/ltx-2.3-22b-dev-nvfp4.safetensors`（20.21 GB） - `checkpoints/ltx-2.3-22b-distilled_transformer_only_fp8_scaled.safetensors`（21.86 GB） - `loras/ltx-2.3-22b-distilled-lora-384.safetensors`（7.08 GB）← 你缺这个 - `text_encoders/gemma_3_12B_it_fp4_mixed.safetensors`（8.80 GB）← 你缺这个 - `vae",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6269949777108803,
+      "maxScore": 0.6269949777108803,
+      "firstRecalledAt": "2026-04-17T07:32:19.100Z",
+      "lastRecalledAt": "2026-04-17T07:32:19.100Z",
+      "queryHashes": [
+        "9f4d31d16188"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "2.3",
+        "2.2",
+        "00-18",
+        "comfyui-ltxvideo",
+        "example-workflows",
+        "ltx23.torrent",
+        "20.21",
+        "21.86"
+      ]
+    },
+    "memory:memory/2026-04-13.md:87:110": {
+      "key": "memory:memory/2026-04-13.md:87:110",
+      "path": "memory/2026-04-13.md",
+      "startLine": 87,
+      "endLine": 110,
+      "source": "memory",
+      "snippet": "- 角色：罗宾（银色挑染短发、黑色皮衣） - 关键场景：肥叔被枪杀（从室内射击）、罗宾撞玻璃逃生、摩托车追逐 - **Film language 修正（Louis 确认后更新）：** - Shot 9：食客继续吃面，但环境音被水滤模糊处理 - Shot 11：子弹从室内射向肥叔侧头（不是穿透落地窗外玻璃） - Shot 12：肥叔侧头中枪，血浆溅墙面，身体前倾倒向桌面 - Shot 14：玻璃已被子弹射裂，撞上去后从裂纹处崩裂（非爆炸飞溅） ### ComfyUI 参考图目录 - 已创建：`C:\\Users\\user\\V915-31\\Documents\\ComfyUI\\input\\robin\\` - 已复制：robin_three_views.png、motorcycle.png、ambiance.png - Blueprint 路径：`C:\\Users\\user\\V915-31\\Documents\\comfyui-git\\blueprints\\Text to Video (Wan 2.2).json` ### Wan 2.2 渲染测试卡住 - 写了一个 `render_wan22.py` 脚本，但 ComfyUI API 返回 400/500 - 问题：直接裸写 workflow JSON 节点 ID 和 links 格式不对 - 需要用 OpenClaw comfyui skill 的 `WorkflowGraph` 工具（core.py）来构建正确的 workflow - 或者 Louis 直接在 ComfyUI UI 里加载 blueprint 手动",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6188822015008094,
+      "maxScore": 0.6188822015008094,
+      "firstRecalledAt": "2026-04-17T07:32:19.100Z",
+      "lastRecalledAt": "2026-04-17T07:32:19.100Z",
+      "queryHashes": [
+        "9f4d31d16188"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "v915-31",
+        "robin-three-views.png",
+        "motorcycle.png",
+        "ambiance.png",
+        "comfyui-git",
+        "2.2",
+        "render-wan22.py",
+        "400/500"
+      ]
+    },
+    "memory:memory/2026-04-13.md:59:90": {
+      "key": "memory:memory/2026-04-13.md:59:90",
+      "path": "memory/2026-04-13.md",
+      "startLine": 59,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "- OpenClaw skill `comfy_graph.py` 可以通过 API 提交 workflow - **可以立即运行 Flux2 t2i**（模型已有） ### 掉线记录 - 上次活动：2026-04-11 17:33 - 4月12日整天无 session - 今天（4月13日）是恢复后第一次对话 ### 下次继续 - [ ] 可用 Flux2 t2i 立即生成图片 - [ ] Wan 2.2 模型需要下载才能跑视频 workflow - [ ] 45个缺失 skills 主要是 macOS 专属，不影响核心功能 --- ## Session (20:30 - 21:08 GMT+8) ### Wan 2.2 模型全部下载完毕（35.41GB） - `diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors` (13.31GB) - `diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors` (13.31GB) - `vae/wan_2.1_vae.safetensors` (0.24GB) - `text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors` (6.27GB) - `loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors` (1.14GB) - `loras/wan2.2_",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6077981334095999,
+      "maxScore": 0.6077981334095999,
+      "firstRecalledAt": "2026-04-17T07:32:19.100Z",
+      "lastRecalledAt": "2026-04-17T07:32:19.100Z",
+      "queryHashes": [
+        "9f4d31d16188"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "comfy-graph.py",
+        "2.2",
+        "35.41gb",
+        "13.31gb",
+        "vae/wan-2.1-vae.safetensors",
+        "0.24gb",
+        "6.27gb",
+        "1.14gb"
+      ]
+    },
+    "memory:memory/2026-04-17.md:21:45": {
+      "key": "memory:memory/2026-04-17.md:21:45",
+      "path": "memory/2026-04-17.md",
+      "startLine": 21,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "## SKILL.md 流程改动 1. **扫描时机调整**：扫描从 Step 0 移到 Step 6（备份文件夹复制完成后、上传前），只扫即将上传的内容 2. **Step 6**：扫描备份文件夹（/tmp/bot-repo/<备份文件夹>） 3. **Step 7**：上传（scan pass 才继续） 4. **Step 9**：上传成功后发报告（含 Repo URL）；检测到敏感信息立即中断告知用户 ## 仓库安全检查结果 - 扫描了 MyClawBot 仓库最新 7 个备份 - `ghp_` 匹配项仅存在于 `memory/2026-03-26.md`（Louis 选择不处理） - 其他匹配项（`hf_token`/`Bearer {hf_token}`）均为代码中的变量名，非真实 token ## 临时文件清理 - `check_secrets_in_repo.py` — 已删除 - `check_secrets_in_repo.ps1` — 已删除 - `download_skills.py` — 已删除 ## 当前状态 - bot-memory-update skill 改动完成，扫描逻辑正确 - workspace 扫描 PASS，无敏感信息 - 待 Louis 决定是否撤销 GitHub PAT（Louis 表示不需要）",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.736703019880868,
+      "maxScore": 0.736703019880868,
+      "firstRecalledAt": "2026-04-19T03:48:29.787Z",
+      "lastRecalledAt": "2026-04-19T03:48:29.787Z",
+      "queryHashes": [
+        "41a50f7070b6"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "备份",
+        "skill.md",
+        "tmp/bot-repo",
+        "memory/2026-03-26.md",
+        "hf-token",
+        "check-secrets-in-repo.py",
+        "check-secrets-in-repo.ps1",
+        "download-skills.py"
+      ]
+    },
+    "memory:memory/2026-04-17.md:1:25": {
+      "key": "memory:memory/2026-04-17.md:1:25",
+      "path": "memory/2026-04-17.md",
+      "startLine": 1,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "# Daily Memory — 2026-04-17 ## Secret Scanner 集成到 bot-memory-update skill - Louis 要求给 bot-memory-update skill 增加安全检测，防止敏感信息（API key、token 等）上传到公共 GitHub 仓库 - 已编写 `skills/bot-memory-update/scan_secrets.py` — 扫描文件中的敏感信息，支持 --fix 生成脱敏副本 - **检测模式**： - HIGH: GitHub PAT (ghp_*/github_pat_*)、OpenAI API Key (sk-*)、Anthropic (sk-ant-*)、AWS Key (AKIA*)、Bearer Token、Database Connection String、Private Key Header、Discord Token 等 - MEDIUM: Named Secret 字段 (api_key=/secret=/token=) - **扫描范围**：.py/.js/.json/.yaml 等文本文件，跳过 .git/__pycache__/node_modules 等 - `scan_secrets.py` 和 `SKILL.md` 自身已加入 SKIP_FILES 防止自扫误报 ## 发现真实敏感信息 | 文件 | Token | 状态 | |------|-------|------| | `download_skills.",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6981456832203017,
+      "maxScore": 0.6981456832203017,
+      "firstRecalledAt": "2026-04-19T03:48:29.787Z",
+      "lastRecalledAt": "2026-04-19T03:48:29.787Z",
+      "queryHashes": [
+        "41a50f7070b6"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "openai",
+        "bot-memory-update",
+        "github-pat",
+        "sk-ant",
+        "api-key",
+        "node-modules",
+        "scan-secrets.py",
+        "skill.md"
+      ]
+    }
+  }
+}
