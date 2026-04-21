@@ -1,0 +1,359 @@
+=== Building workflows ===
+WAN22 nodes=16 LTX nodes=18 HUNYUAN nodes=8
+[WAN22] submitted: c4a6014d-e4ff-4587-8528-24f43f8dff3f
+[HUNYUAN] submitted: 63a5cdf8-77a3-4112-a94b-b255da170992
+[LTX] submitted: 17de78bc-70ff-4ed6-8d8f-b2728e751797
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[WAN22] status=unknown
+[HUNYUAN] status=unknown
+[LTX] status=unknown
+[HUNYUAN] status=unknown
+[WAN22] status=success
+[WAN22] --> cmp2_wan22_00001_.mp4
+[WAN22] DONE: SUCCESS
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] status=error
+  MSG: ['execution_error', {'prompt_id': '17de78bc-70ff-4ed6-8d8f-b2728e751797', 'node_id': '0', 'node_type': 'DualCLIPLoader', 'executed': ['10', '11', '9'], 'exception_message': 'Expecting value: line 1 co
+[HUNYUAN] status=error
+  MSG: ['execution_error', {'prompt_id': '63a5cdf8-77a3-4112-a94b-b255da170992', 'node_id': '4', 'node_type': 'CLIPTextEncode', 'executed': ['1', '2', '0'], 'exception_message': "'NoneType' object has no att
+[LTX] DONE: TIMEOUT
+[HUNYUAN] DONE: TIMEOUT
+
+========== RESULTS ==========
+  WAN22: SUCCESS (prompt_id=c4a6014d-e4ff-4587-8528-24f43f8dff3f)
+  LTX: TIMEOUT (prompt_id=17de78bc-70ff-4ed6-8d8f-b2728e751797)
+  HUNYUAN: TIMEOUT (prompt_id=63a5cdf8-77a3-4112-a94b-b255da170992)
+==============================

@@ -1,0 +1,297 @@
+[
+  {
+    "shot": 1,
+    "time": "00:00-00:05",
+    "duration": 5,
+    "type": "establishing",
+    "location": "深水埗茶餐厅外街道",
+    "prompt_cn": "香港深水埗巷弄，霓虹灯招牌在砖墙上投下红蓝光。狭窄巷弄，地面干燥，氛围感的香港夜景，电影感，8K",
+    "prompt_en": "The camera gazes across a Sham Shui Po back alley at night, neon signs in crimson and electric blue light glowing on stone brick walls. Narrow street alley, dry ground, atmospheric Hong Kong night scene, cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [],
+    "reference_objects": []
+  },
+  {
+    "shot": 2,
+    "time": "00:05-00:10",
+    "duration": 5,
+    "type": "action",
+    "location": "茶餐厅入口",
+    "prompt_cn": "中年女性穿着整洁制服站在茶餐厅入口，手势明亮，笑容真诚，在暖黄色灯光下迎接客人。背景是茶餐厅内部温暖的光线。电影感，8K",
+    "prompt_en": "A middle-aged Hong Kong woman in a crisp uniform stands at the Teahouse entrance, gesturing brightly, sincere warm smile, greeting guests under warm amber light. Background shows the warm interior of the Teahouse. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "hostess"
+    ],
+    "reference_objects": []
+  },
+  {
+    "shot": 3,
+    "time": "00:10-00:15",
+    "duration": 5,
+    "type": "cutaway",
+    "location": "茶餐厅内部",
+    "prompt_cn": "老旧吊扇缓慢旋转，叶片捕捉暖黄色灯光，在拥挤的茶餐厅内部投下斑驳阴影。镜头稳定，电影感，8K",
+    "prompt_en": "An old ceiling fan rotates slowly in lazy circles, its blades catching warm tungsten light, casting dappled shadows in the crowded Teahouse interior. Stable shot, cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [],
+    "reference_objects": []
+  },
+  {
+    "shot": 4,
+    "time": "00:15-00:23",
+    "duration": 8,
+    "type": "action",
+    "location": "茶餐厅内部",
+    "prompt_cn": "罗宾（银色挑染短发，黑色皮衣）以捕食者的精准穿过拥挤的茶餐厅，每一步都经过深思熟虑。她的身影在暖黄色灯光下若隐若现，营造出压迫感。电影感，动作流畅，8K",
+    "prompt_en": "Robin moves through the cramped Teahouse with predatory precision, each footfall deliberate, weight shifting fluidly. Silver streaked short hair, black leather jacket. Her figure looms in warm amber light, creating a sense of oppression. Cinematic, fluid motion, 8K",
+    "start_image_needed": true,
+    "end_image_needed": true,
+    "end_shot": 17,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": []
+  },
+  {
+    "shot": 5,
+    "time": "00:23-00:31",
+    "duration": 8,
+    "type": "action",
+    "location": "茶餐厅内部",
+    "prompt_cn": "前景元素——一盘干炒牛河升起薄薄蒸汽，一杯冻奶茶凝结水珠。。罗宾的身影从左侧入画，动作敏捷。电影感，8K",
+    "prompt_en": "Foreground elements: a plate of dry-fried beef Hor Fun sending up a thin curl of steam, a glass of iced milk tea with condensation. Robins figure enters frame from the left, moving with agility. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": []
+  },
+  {
+    "shot": 6,
+    "time": "00:31-00:38",
+    "duration": 7,
+    "type": "reaction",
+    "location": "茶餐厅内部",
+    "prompt_cn": "从罗宾右肩后方的过肩镜头，她坐到肥叔对面的位置。桌面有冻奶茶和菠萝包。暖黄色高饱和灯光，电影感，8K",
+    "prompt_en": "Over-the-shoulder from directly behind Robins right shoulder as she settles into a seat across from Uncle Fat. Table has iced milk tea and pineapple bun. Warm yellow high-saturation lighting, cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "robin",
+      "uncle_fat"
+    ],
+    "reference_objects": [
+      "tea",
+      "pineapple_bun"
+    ]
+  },
+  {
+    "shot": 7,
+    "time": "00:38-00:44",
+    "duration": 6,
+    "type": "insert",
+    "location": "茶餐厅内部",
+    "prompt_cn": "俯视特写：肥叔粗糙的手，厚实的手指，无名指上戴着厚实的银戒指，正拿起冻奶茶。动作慢而稳重，电影感，8K",
+    "prompt_en": "A top-down extreme close-up: Uncle Fat's weathered hand, thick fingers, a chunky silver ring on the ring finger, picking up the iced milk tea. Movement slow and steady, cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "uncle_fat"
+    ],
+    "reference_objects": [
+      "tea"
+    ]
+  },
+  {
+    "shot": 8,
+    "time": "00:44-00:49",
+    "duration": 5,
+    "type": "reaction",
+    "location": "茶餐厅内部",
+    "prompt_cn": "反拍低角度揭示：罗宾的手从下方入画，平坦地压在桌面上的 U 盘上。手指修长有力，黑色皮衣袖口入画。电影感，8K",
+    "prompt_en": "A reverse-angle bottom-up reveal: Robin's hand descends into frame and presses flat over the USB drive on the table. Fingers long and strong, black leather jacket cuff visible. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": [
+      "usb_drive"
+    ]
+  },
+  {
+    "shot": 9,
+    "time": "00:49-00:54",
+    "duration": 5,
+    "type": "cutaway",
+    "location": "茶餐厅内部",
+    "prompt_cn": "茶餐厅内部宽静态镜头，顾客继续吃面、喝奶茶、交谈。外对白被水滤模糊处理。环境音低频混沌，氛围紧张，8K",
+    "prompt_en": "A wide static shot from inside the Teahouse, customers continue to eat noodles, drink tea, converse. External dialogue muffled by water filtration. Low-frequency ambient chaos, tense atmosphere, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [],
+    "reference_objects": []
+  },
+  {
+    "shot": 10,
+    "time": "00:54-00:58",
+    "duration": 4,
+    "type": "insert",
+    "location": "茶餐厅内部",
+    "prompt_cn": "湿玻璃窗极近特写。外面：深水埗湿漉漉的夜色，蓝黑色调，霓虹招牌倒映在玻璃上。电影感，8K",
+    "prompt_en": "An extreme close-up of the wet plate glass window. Outside: the blue-black of a Sham Shui Po wet night, neon signs reflected on the glass. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [],
+    "reference_objects": []
+  },
+  {
+    "shot": 11,
+    "time": "00:58-01:01",
+    "duration": 3,
+    "type": "insert",
+    "location": "茶餐厅内部",
+    "prompt_cn": "超慢动作：一颗子弹在空中穿行，射向肥叔湿漉漉的侧头。子弹轨迹清晰，背景茶餐厅灯光暖黄。电影感，8K",
+    "prompt_en": "Ultra slow-motion: a bullet traces a path through the air inside the Teahouse toward Uncle Fat's wet temple. Bullet trajectory crystal clear, warm amber Teahouse lights in background. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [],
+    "reference_objects": []
+  },
+  {
+    "shot": 12,
+    "time": "01:01-01:04",
+    "duration": 3,
+    "type": "action",
+    "location": "茶餐厅内部",
+    "prompt_cn": "侧背中景：肥叔的头从冲击中弹出——不是戏剧性的摔倒，而是简单的侧头向前倒向桌面。血浆溅在墙面上。冷蓝主调，电影感，暴力美学，8K",
+    "prompt_en": "Side medium shot: Uncle Fat's head snaps to the wet from the impact, not a dramatic fall but a simple forward collapse onto the table. Blood spatters on the wall. Cold blue dominant, cinematic, violent aesthetic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "uncle_fat"
+    ],
+    "reference_objects": []
+  },
+  {
+    "shot": 13,
+    "time": "01:04-01:09",
+    "duration": 5,
+    "type": "reaction",
+    "location": "茶餐厅内部",
+    "prompt_cn": "罗宾眼睛极近特写：瞳孔放大，眼白捕捉暖光线，微小的神情变化。内心翻涌，外表冷静。电影感，8K",
+    "prompt_en": "Extreme close-up of Robin's eyes: pupils dilating, the whites of her eyes catching the warm light, subtle expression shifts. Internal turmoil, external calm. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": []
+  },
+  {
+    "shot": 14,
+    "time": "01:09-01:12",
+    "duration": 3,
+    "type": "insert",
+    "location": "茶餐厅内部",
+    "prompt_cn": "极近特写：罗宾的手快速前探，用外科手术般的精准从桌上扫走 U 盘。动作干净利落。电影感，8K",
+    "prompt_en": "Extreme close-up: Robin's hand darts forward and snatches the USB drive from the table with surgical precision. Clean and efficient movement. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": [
+      "usb_drive"
+    ]
+  },
+  {
+    "shot": 15,
+    "time": "01:09-01:14",
+    "duration": 5,
+    "type": "action",
+    "location": "茶餐厅内部",
+    "prompt_cn": "罗宾从座位爆发站起——动作 explosive 但受控，身体蜷缩然后释放，黑色皮衣在灯光下闪烁。电影感，8K",
+    "prompt_en": "Robin surges up from her seat, the movement explosive but controlled, her body coiling and releasing, black leather jacket catching the light. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": true,
+    "end_shot": 16,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": []
+  },
+  {
+    "shot": 16,
+    "time": "01:14-01:18",
+    "duration": 4,
+    "type": "action",
+    "location": "茶餐厅外街道",
+    "prompt_cn": "外景低角度：罗宾从破窗框翻滚而出，落在湿漉漉的街道上，玻璃碎片四散，周围是深蓝和暖黄混合的光。电影感，8K",
+    "prompt_en": "Exterior low angle: Robin tumbles through the shattered window frame onto the wet street outside, glass fragments scattered around, surrounded by a mix of deep blue and warm yellow light. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": true,
+    "end_shot": 17,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": []
+  },
+  {
+    "shot": 17,
+    "time": "01:18-01:23",
+    "duration": 5,
+    "type": "action",
+    "location": "街道/摩托车",
+    "prompt_cn": "侧脸特写：罗宾跨上一辆改装摩托车——香港街头骑士偏爱的款式。黑色皮衣在夜色中发光，银色短发湿漉漉。电影感，8K",
+    "prompt_en": "Side close-up: Robin swings onto a modified motorcycle, the kind favored by Hong Kong street riders. Black leather jacket gleaming in the night, silver streaked hair wet. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": true,
+    "end_shot": 18,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": [
+      "motorcycle"
+    ]
+  },
+  {
+    "shot": 18,
+    "time": "01:23-01:27",
+    "duration": 4,
+    "type": "insert",
+    "location": "摩托车/街道",
+    "prompt_cn": "罗宾湿漉漉的手拧紧摩托车油门特写——指关节发白，全力拧动。背景霓虹灯光模糊飞逝。电影感，8K",
+    "prompt_en": "Extreme close-up of Robin's wet hand twisting the motorcycle throttle grip, knuckles white with maximum force. Background neon lights blur past. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": false,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": [
+      "motorcycle"
+    ]
+  },
+  {
+    "shot": 19,
+    "time": "01:27-01:37",
+    "duration": 10,
+    "type": "action",
+    "location": "深水埗街道",
+    "prompt_cn": "跟拍镜头：罗宾的摩托车冲破深水埗夜色，黑色 Bolt 般的身影在霓虹红蓝灯光中穿梭，水洼倒映破碎的光影。电影感，8K",
+    "prompt_en": "Tracking shot: Robin's motorcycle tears through the wet Sham Shui Po night, a black bolt of motion through crimson and electric blue neon, puddles reflecting shattered light. Cinematic, 8K",
+    "start_image_needed": true,
+    "end_image_needed": true,
+    "reference_characters": [
+      "robin"
+    ],
+    "reference_objects": [
+      "motorcycle"
+    ]
+  }
+]
